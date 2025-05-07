@@ -1,9 +1,9 @@
-# 💰 Loan React
+#💰 Loan React
 A simple React application to simulate loans, allowing users to select an amount and a payment period in months. The app automatically calculates the total repayment and estimated monthly installment.
 URL: 
 
 
-#🚀 Features
+## 🚀 Features
 - Adjustable loan amount using a range slider.
 - Increment and decrement buttons for precise control.
 - Selectable payment terms (6, 12, or 24 months).
@@ -11,13 +11,13 @@ URL:
 - Currency formatting (MXN).
 - Responsive UI styled with TailwindCSS.
 
-# 🛠️ Technologies Used
+## 🛠️ Technologies Used
 - React
 - JavaScript (ES6+)
 - TailwindCSS
 - Vite (for development and bundling)
 
-# 📦 Installation
+## 📦 Installation
 1. Clone the repository:
 ```
 bash
@@ -42,7 +42,7 @@ npm run dev
 chrome
 http://localhost:5173
 ```
-# 📁 Project Structure
+## 📁 Project Structure
 
 ```
 css
@@ -61,7 +61,7 @@ Editar
 └── index.html
 ```
 
-📌 Notes
+## 📌 Notes
 The loan amount range is between $0 and $100,000 MXN, increasing in $100 steps.
 
 
