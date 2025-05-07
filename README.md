@@ -1,4 +1,4 @@
-#💰 Loan React
+# 💰 Loan React
 A simple React application to simulate loans, allowing users to select an amount and a payment period in months. The app automatically calculates the total repayment and estimated monthly installment.
 URL: 
 
