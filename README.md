@@ -1,12 +1,69 @@
-# React + Vite
+# 💰 Loan React
+A simple React application to simulate loans, allowing users to select an amount and a payment period in months. The app automatically calculates the total repayment and estimated monthly installment.
+URL: 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+#🚀 Features
+- Adjustable loan amount using a range slider.
+- Increment and decrement buttons for precise control.
+- Selectable payment terms (6, 12, or 24 months).
+- Automatic calculation of total repayment and monthly installment.
+- Currency formatting (MXN).
+- Responsive UI styled with TailwindCSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# 🛠️ Technologies Used
+- React
+- JavaScript (ES6+)
+- TailwindCSS
+- Vite (for development and bundling)
 
-## Expanding the ESLint configuration
+# 📦 Installation
+1. Clone the repository:
+```
+bash
+git clone https://github.com/your-username/loan-react.git
+cd loan-react
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. Install dependencies:
+```
+bash
+npm install
+```
+
+3. Start the development server:
+```
+bash
+npm run dev
+```
+
+4. Open your browser and visit:
+```
+chrome
+http://localhost:5173
+```
+# 📁 Project Structure
+
+```
+css
+Copiar
+Editar
+📦 loan-react
+├── public
+│   └── loan.png
+├── src
+│   ├── components
+│   │   ├── Button.jsx
+│   │   └── Header.jsx
+│   ├── helpers.js
+│   ├── App.jsx
+│   └── main.jsx
+└── index.html
+```
+
+📌 Notes
+The loan amount range is between $0 and $100,000 MXN, increasing in $100 steps.
+
+
+
+
